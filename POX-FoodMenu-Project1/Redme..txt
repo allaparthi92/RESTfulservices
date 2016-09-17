@@ -1,0 +1,32 @@
+I have used Eclipse Luna and Apache Tomact 7
+
+I have used the exisiting Greeting client app client and server as my project client and Server
+
+There are two subprojects 
+
+1.GreetingRESTcli-GET-POST
+2.GreetingRESTsrv-GET-POST
+
+Steps to be followed:
+
+1)Import the GreetingRESTsrv-GET-POST as a maven application in Eclipse and do Maven update project 
+
+2)Please use JDK7 as run time environment and Run the application on the server
+
+3)Import the GreetingRESTcli-GET-POST as a maven application and modify the input variable "XMLInput" in App.java class for various inputs
+
+which is passed as an argument to the function "postTextGreeting" and run the App.java file as a java application.
+
+please access this url as end point :http://localhost:8080/GreetingRESTsrv-GET-POST/webapi/foodItem
+
+
+
+Using Postman:
+
+1) Import the GreetingRESTsrv-GET-POST as a maven application in Eclipse and run the application on the Tomcat server.
+
+2) please access this url as end point :http://localhost:8080/GreetingRESTsrv-GET-POST/webapi/foodItem in postman
+
+3) Copy and paste the input XML text in body and clieck the send button and observe the output XML in body 
+
+
